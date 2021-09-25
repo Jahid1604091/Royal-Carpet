@@ -1,0 +1,247 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth; }
+
+.navbar {
+  background-color: #002366;
+  z-index: 11; }
+  .navbar .nav-item {
+    padding-left: 1em; }
+    .navbar .nav-item .nav-link {
+      text-transform: uppercase; }
+
+#homeicon .contact-info > .fa:hover {
+  color: #002366;
+  cursor: pointer; }
+
+#homeicon #typed {
+  color: #002366;
+  font-family: 'Lobster', cursive; }
+
+.carousel-item {
+  height: 450px; }
+  .carousel-item h2 {
+    font-weight: 600;
+    color: white; }
+  .carousel-item h5 {
+    text-shadow: 2px 2px #002366;
+    font-size: 20px;
+    padding: 5px 0px 5px 0px; }
+
+.carousel-img-1 {
+  background: url("../img/red-carpet-with-curtain-vector-26288030.jpg") no-repeat center center/cover; }
+
+.carousel-img-2 {
+  background: url("../img/maxresdefault.jpg") no-repeat center center/cover; }
+
+.carousel-img-3 {
+  background: url("../img/Birthday-Party-Rainbow-Sprinkles-Table-Setting.jpg") no-repeat center center/cover; }
+
+.carousel-img-4 {
+  background: url("../img/z-hearten29-1170x784.jpg") no-repeat center center/cover; }
+
+.carousel-item::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: rgba(104, 101, 109, 0.7); }
+
+.bottomline {
+  height: 4px;
+  width: 88px;
+  background: #fff;
+  display: block;
+  margin: 0 auto; }
+
+#gallery h2 {
+  color: #002366; }
+
+#gallery img {
+  min-height: 500px; }
+
+#gallery .images {
+  position: relative;
+  margin: 5px; }
+
+#gallery .images::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 500px;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.6); }
+
+#gallery .text {
+  font-family: 'Dancing Script', cursive;
+  color: white;
+  font-size: 40px;
+  padding: 16px 32px;
+  font-weight: 600;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2; }
+
+#gallery .fa {
+  color: #002366; }
+
+#copy {
+  background-color: #002366; }
+
+@media (max-width: 767px) {
+  .nav-item {
+    padding-left: 0 !important; } }
+
+@media (max-width: 480px) {
+  .carousel h2 {
+    font-size: 2.5rem; } }
+
+#venue_heading {
+  position: relative;
+  background: url("../img/elias beach (3).jpg") center;
+  background-size: cover;
+  min-height: 400px;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+  #venue_heading .dark-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 100%; }
+
+#venues {
+  padding: 40px; }
+  #venues h2 {
+    color: #002366; }
+  #venues .bottomline {
+    background: #002366; }
+  #venues p, #venues h4, #venues ul {
+    text-align: justify; }
+
+#event_heading {
+  position: relative;
+  background: url("../img/Corporate-Event-Planner.jpg") center;
+  background-size: cover;
+  min-height: 400px;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+  #event_heading .dark-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 100%; }
+
+#events {
+  padding: 40px; }
+  #events h2 {
+    color: #002366; }
+  #events .bottomline {
+    background: #002366; }
+  #events p, #events h4, #events ul {
+    text-align: justify; }
+
+#party_heading {
+  position: relative;
+  background: url("../img/960x0.jpg") center;
+  background-size: cover;
+  min-height: 400px;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+  #party_heading .dark-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 100%; }
+
+#parties {
+  padding: 40px; }
+  #parties h2 {
+    color: #002366; }
+  #parties .bottomline {
+    background: #002366; }
+  #parties p, #parties h4, #parties ul {
+    text-align: justify; }
+
+#about {
+  position: relative;
+  background: url("../img/Gulfarium-Marine-Adventure-Park-Fort-Walton-Beach-FL-9e85e54f-eadf-402e-8c86-46682038f989.1570134847-97450e389c42885476f1fbe9bc5bca5a.jpg") no-repeat center center/cover;
+  min-height: 450px;
+  background-attachment: fixed; }
+  #about h2 {
+    color: white; }
+  #about .dark-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 100%; }
+
+#about-info {
+  color: #002366; }
+  #about-info img {
+    width: 350px;
+    height: 350px; }
+
+#services {
+  position: relative;
+  background: url("../img/Wedding Gold and Black table set.jpg") center;
+  background-size: cover;
+  min-height: 450px;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+  #services .dark-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 100%; }
+
+#location h2 {
+  color: #002366; }
+
+#location .bottomline {
+  background: #002366; }
+
+#location #map {
+  height: 400px;
+  width: 100%; }
+
+#map {
+  border: 2px solid #002366;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  height: 80vh; }
+
+#contact h2 {
+  color: #002366; }
+
+#contact .bottomline {
+  background: #002366; }
+
+#getIn .fa {
+  color: black; }
+
+.logo h2 {
+  color: #002366;
+  font-family: 'Lobster', cursive;
+  text-shadow: 2px 2px  #ffbd1b; }
+
+.rce-title {
+  color: #002366;
+  font-weight: 400; }

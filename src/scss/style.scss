@@ -1,0 +1,349 @@
+$dark-overlay: rgba(0, 0, 0, 0.7);
+$primary-color: #002366;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+.navbar {
+  background-color: $primary-color;
+  z-index: 11;
+  .nav-item {
+    padding-left: 1em;
+
+    .nav-link {
+      text-transform: uppercase;
+    }
+  }
+  
+}
+
+#homeicon {
+ 
+  .contact-info > .fa:hover {
+    color: $primary-color;
+    cursor: pointer;
+  }
+  #typed {
+    color: $primary-color;
+    font-family: 'Lobster', cursive;
+  }
+}
+
+.carousel-item {
+  height: 450px;
+   
+  h2 {
+    font-weight: 600;
+       color: white;
+  }
+    h5{
+        text-shadow: 2px 2px $primary-color;
+        font-size: 20px;
+        padding: 5px 0px 5px 0px;
+    }
+}
+.carousel-img-1 {
+  background: url('../img/red-carpet-with-curtain-vector-26288030.jpg') no-repeat center center/cover;
+}
+.carousel-img-2 {
+  background: url('../img/maxresdefault.jpg') no-repeat center center/cover;
+}
+.carousel-img-3 {
+  background: url('../img/Birthday-Party-Rainbow-Sprinkles-Table-Setting.jpg') no-repeat center center/cover;
+}
+.carousel-img-4 {
+  background: url('../img/z-hearten29-1170x784.jpg') no-repeat center center/cover;
+}
+
+.carousel-item::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: rgba(104, 101, 109, 0.7);
+}
+.bottomline{
+	height:4px;
+	width:88px;
+	background:#fff;
+	display:block;
+	margin:0 auto;
+}
+#gallery {
+  h2 {
+    color: $primary-color;
+  }
+  img {
+    min-height: 500px;
+  }
+  .images {
+    position: relative;
+      margin: 5px;
+  }
+
+  .images::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.6);
+  }
+
+  .text {
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 40px;
+    padding: 16px 32px;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+    .fa{
+        
+        color: $primary-color;
+    }
+}
+
+#copy {
+  background-color: $primary-color;
+}
+
+@media (max-width: 767px) {
+  .nav-item {
+    padding-left: 0 !important;
+  }
+}
+@media (max-width: 480px) {
+  .carousel {
+    h2 {
+      font-size: 2.5rem;
+    }
+  }
+}
+
+
+//////////////////////////////////////////
+//////venue management////////////////
+/////////////////////////////////////////
+
+#venue_heading {
+  position: relative;
+  background: url('../img/elias beach (3).jpg') center;
+  background-size: cover;
+  min-height: 400px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+  .dark-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 100%;
+  }
+}
+#venues{
+    padding: 40px;
+    h2{
+        color: $primary-color;
+    }
+    .bottomline{
+        background:$primary-color;
+    }
+    p,h4,ul{
+        text-align: justify;
+    }
+}
+
+//////////////////////////////////////////
+//////events////////////////
+/////////////////////////////////////////
+
+#event_heading {
+  position: relative;
+  background: url('../img/Corporate-Event-Planner.jpg') center;
+  background-size: cover;
+  min-height: 400px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+  .dark-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 100%;
+  }
+}
+#events{
+    padding: 40px;
+    h2{
+        color: $primary-color;
+    }
+    .bottomline{
+        background:$primary-color;
+    }
+    p,h4,ul{
+        text-align: justify;
+    }
+}
+
+
+////////////////////////////////////////////
+///////// party //////////////////
+////////////////////////////////////////////
+
+#party_heading {
+  position: relative;
+  background: url('../img/960x0.jpg') center;
+  background-size: cover;
+  min-height: 400px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+  .dark-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 100%;
+  }
+}
+#parties{
+    padding: 40px;
+    h2{
+        color: $primary-color;
+    }
+    .bottomline{
+        background:$primary-color;
+    }
+    p,h4,ul{
+        text-align: justify;
+    }
+}
+
+
+////////////////////////////////////////////
+///////// a b o u t  u s //////////////////
+////////////////////////////////////////////
+
+#about {
+  position: relative;
+  background: url('../img/Gulfarium-Marine-Adventure-Park-Fort-Walton-Beach-FL-9e85e54f-eadf-402e-8c86-46682038f989.1570134847-97450e389c42885476f1fbe9bc5bca5a.jpg') no-repeat center center/cover;
+  min-height: 450px;
+  background-attachment: fixed;
+    h2{
+         color: white;
+    }
+  .dark-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 100%;
+  }
+}
+
+#about-info {
+  img {
+    width: 350px;
+    height: 350px;
+  }
+    color: $primary-color;
+
+}
+
+
+/////////////////////////////////////////
+////////////// services ////////////////
+///////////////////////////////////////
+
+#services {
+  position: relative;
+  background: url('../img/Wedding Gold and Black table set.jpg') center;
+  background-size: cover;
+  min-height: 450px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+  .dark-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 100%;
+  }
+}
+/////////////////////////////////////////
+////////////// location////////////////
+///////////////////////////////////////
+
+#location {
+h2{
+        color: $primary-color;
+    }
+    .bottomline{
+        background:$primary-color;
+    }
+    
+    #map{
+      height:400px;
+      width:100%;
+    }
+}
+
+#map {
+    border: 2px solid $primary-color;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height: 80vh;
+ 
+}
+
+/////////////////////////////////////////
+////////////// C O N T A C T ///////////
+///////////////////////////////////////
+
+#contact {
+    h2{
+        color: $primary-color;
+    }
+    .bottomline{
+        background:$primary-color;
+    }
+    
+}
+#getIn{
+    .fa{
+        color: black;
+    }
+}
+
+.logo{
+    h2{
+        color: $primary-color;
+        font-family: 'Lobster', cursive;
+         text-shadow: 2px 2px  #ffbd1b;
+    }
+}
+
+.rce-title{
+    color: $primary-color;
+    font-weight: 400;
+}
